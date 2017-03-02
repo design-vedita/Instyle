@@ -2149,3 +2149,40 @@ input[list]::-webkit-calendar-picker-indicator {
 .title-page {
     margin-bottom: 40px;
 }
+
+/*************************************************/
+/*************Модалка обратная связь***************/
+/*************************************************/
+
+.modal-feedback {
+    max-width: 750px;
+    width: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    background-color: #fff;
+    box-sizing: border-box;
+    overflow: visible;
+
+    .rates-warning--inner {
+        padding-left: 30px;
+
+        h2 {
+            margin-top: 24px;
+            margin-bottom: 0;
+            color: #333333;
+        }
+    }
+
+    .rates-warning--content {
+        padding: 30px;
+        background-color: #fff;
+    }
+
+    .modal-close {
+        top: 25px;
+        right: 32px;
+    }
+}
